@@ -11,3 +11,178 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar{
+  background-color: darkblue;
+  color: white;
+  height: 4rem;
+ overflow: hidden;
+ white-space: nowrap; 
+ display: flex;
+  flex-wrap: nowrap;
+}
+
+.navbar a{
+  color: white;
+}
+
+
+.navbar-brand{
+ white-space: nowrap;
+ overflow-wrap: break-word;
+  color: white;
+  
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+  
+.contact{
+  border: 2px solid rgb(240, 174, 52);
+  background-color: rgb(244, 177, 54);
+  color: black;
+  margin-right: 3rem;
+  border-radius: 7px;
+  width: 10rem;
+  text-align: center;
+}
+
+
+svg{
+  margin-bottom: 8px;
+}
+a:hover{
+  color: white !important;
+  font-size: 1.3rem;
+}
+
+.navbar h1{
+  margin-top: 0.6rem;
+  margin-right: 15rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.middle img{
+  width: 100%;
+  height: 24rem;
+  position: absolute;
+}
+
+.input {
+  width: 60%;
+position: relative;
+margin-top: 2rem;
+margin-left: 20%;
+border-radius: 16px;
+height: 2rem;
+padding-left: 1.5rem;
+
+}
+.middle p{
+  position: relative;
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+body{
+  background-color: rgb(244, 199, 144);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 10rem;
+  
+  
+  
+}
+.cart {
+  width: 25rem;
+  height: 27rem;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 50%);
+
+box-shadow: 7px 7px  7px 7px hsl(0, 0%, 0%,30%);
+}
+.cart-over{
+  position: absolute;
+  font-size: 0.8rem;
+  left: 0%;
+  height: 5rem;
+  width: 26rem;
+  background-color:hsl(0, 0%, 50%,50%);
+  padding:2rem;
+  
+  transform: translateY(100%);
+  transition: transform 0.7s ease-in-out;
+}
+
+.cart img{
+  width: 100%;
+  height: 80%;
+
+}
+.cart:hover .cart-over  {
+transform: translateY(-100%);
+}
