@@ -14,7 +14,7 @@ body {
 
 nav {
   margin-top: 0%;
-  background-color: darkblue;
+  background-color: rgb(244, 199, 144);
   height: 4rem;
 }
 ul {
@@ -24,20 +24,21 @@ ul {
   gap: 2rem;
 }
 ul li {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 700;
 
   list-style-type: none;
 }
 ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(4, 2, 29);
+  text-shadow: 3px 3px 3px ;
 }
 a:hover {
-  font-size: 1.36rem;
+  font-size: 1.66rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 707px) {
   ul {
     display: block;
     width: 100%;

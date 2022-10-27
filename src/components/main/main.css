@@ -1,0 +1,20 @@
+.main{
+  display: flex;
+    gap: 1rem;
+   margin:1rem;
+  
+    
+}
+.top{
+    width: 300px;
+    height: 400px;
+    
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img img{
+    width: 300px;
+    height: 350px;
+}
